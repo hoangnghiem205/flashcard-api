@@ -1,0 +1,23 @@
+{
+  "name": "flashcard-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "gen": "gulp gen",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-paginate": "^0.1.1",
+    "jade": "^1.11.0",
+    "mongodb": "^2.1.8",
+    "mongoose": "^4.4.6",
+    "mongoose-pages": "0.0.3"
+  }
+}
